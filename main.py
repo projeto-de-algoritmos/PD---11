@@ -3,6 +3,8 @@ from webbrowser import get
 from flask import Flask, render_template, request, flash, redirect, url_for
 import random
 
+# -- Estruturas e Funcoes ---
+
 
 def knapSack(W, wt, val, n):
     K = [[0 for x in range(W + 1)] for x in range(n + 1)]
@@ -20,6 +22,19 @@ def knapSack(W, wt, val, n):
     return K[n][W]
 
 
+def mudarValoresKnapSack(W, wt, val, n):
+    wt.clear()
+    val.clear()
+    for i in range(0, 5):
+        wt.append(random.randint(1, 32))
+        val.append(random.randint(1, 32))
+    wt.sort()
+    val.sort()
+    W = random.randint(15, 30)
+    n = len(val)
+    return W, wt, val, n
+
+
 adj_list = {
     "1": ["2", "7", "8"],
     "2": ["7", "1", "8"],
@@ -33,6 +48,17 @@ adj_list = {
     "10": ["5"],
 
 }
+# ---  Variaveis Globais ---
+global val
+val = [1, 6, 18, 22, 26]
+global wt
+wt = [1, 2, 5, 6, 7]
+global W
+W = 11
+global n
+n = len(val)
+
+# --- Aplicacao ---
 
 app = Flask(__name__)  # sempre ao iniciar um site
 app.config['SECRET_KEY'] = "minha-palavra-secreta"
@@ -64,12 +90,11 @@ def homepage():
 @app.route('/caminho/<no_destino>', methods=['GET', 'POST'])
 def caminho(no_destino):
     no = no_destino
-    val = [1, 6, 18, 22, 26]
-    wt = [1, 2, 5, 6, 7]
-    W = 11
-    n = len(val)
+    global val
+    global wt
+    global W
+    global n
     resposta = knapSack(W, wt, val, n)
-
     if request.method == "GET":
         return render_template("caminho.html", no=no,
                                valor0=val[0], peso0=wt[0],
@@ -95,6 +120,7 @@ def caminho(no_destino):
                 return redirect(url_for('vitoria'))
             if (palpite in adj_list[no]):
                 no = palpite
+                W, wt, val, n = mudarValoresKnapSack(W, wt, val, n)
                 return redirect(url_for('caminho', no_destino=no))
             else:
                 return redirect(url_for('errou'))
