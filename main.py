@@ -112,7 +112,7 @@ def caminho(no_destino):
                 flash("Resposta Certa!", "success")
                 return redirect(url_for('caminho', no_destino=no))
             if(valor != resposta):
-                flash("Resposta errada!", "warning")
+                flash("Resposta errada! Tente de Novo!", "warning")
                 return redirect(url_for('caminho', no_destino=no))
         except:
             palpite = str(request.form.get("name"))
