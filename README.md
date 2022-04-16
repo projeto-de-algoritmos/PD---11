@@ -23,7 +23,7 @@ o maior valor de moedas que consegue levar a partir do máximo de Kg dados!
 ![image](https://user-images.githubusercontent.com/52542729/163654706-2fae760d-81ec-402a-9019-c8cea27e037d.png)
 Figura 1: Tela inicial.
 
-![image](https://user-images.githubusercontent.com/52542729/163654860-01130269-12f2-463d-b98e-fb4e3794cd99.png)
+![image](https://user-images.githubusercontent.com/52542729/163659615-113a53a2-1acd-4eb8-b6cf-41310b17add8.png)
 Figura 2: Tela de quando há caminho entre os postos.
 
 ![image](https://user-images.githubusercontent.com/52542729/163654735-66860ab7-0dda-4566-b9bc-e63750a633a7.png)
@@ -32,10 +32,10 @@ Figura 3: Tela de quando não há caminho entre os postos. Mensagem de Erro (Gam
 ![image](https://user-images.githubusercontent.com/52542729/163654800-736f455c-ac44-41d0-b412-d65aa7dfb77e.png)
 Figura 4: Tela de quando encontra a saída. Mensagem de Vitória.
 
-![image](https://user-images.githubusercontent.com/52542729/163654755-a2ebff9c-5e94-4d5c-8ab1-be6bd67f976a.png)
+![image](https://user-images.githubusercontent.com/52542729/163659641-294c6bd4-5bfc-40ed-881f-ffb109c90cfe.png)
 Figura 5: Tela de quando acerta o maior valor. Mensagem de Acerto.
 
-![image](https://user-images.githubusercontent.com/52542729/163654767-9890536e-33ba-4459-813f-762da20d13da.png)
+![image](https://user-images.githubusercontent.com/52542729/163659660-dd77ea83-d402-478c-b392-0fe214ed0076.png)
 Figura 6: Tela de quando não acerta o maior valor. Mensagem de Erro.
 
 ## Instalação 
