@@ -32,7 +32,7 @@ Figura 3: Tela de quando não há caminho entre os postos. Mensagem de Erro (Gam
 ![image](https://user-images.githubusercontent.com/52542729/163654800-736f455c-ac44-41d0-b412-d65aa7dfb77e.png)
 Figura 4: Tela de quando encontra a saída. Mensagem de Vitória.
 
-![image](https://user-images.githubusercontent.com/52542729/163659641-294c6bd4-5bfc-40ed-881f-ffb109c90cfe.png)
+![image](https://user-images.githubusercontent.com/52542729/163681386-289491c4-0ccb-4b8f-9406-76d34da2e942.png)
 Figura 5: Tela de quando acerta o maior valor. Mensagem de Acerto.
 
 ![image](https://user-images.githubusercontent.com/52542729/163659660-dd77ea83-d402-478c-b392-0fe214ed0076.png)
