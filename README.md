@@ -35,7 +35,7 @@ Figura 4: Tela de quando encontra a saída. Mensagem de Vitória.
 ![image](https://user-images.githubusercontent.com/52542729/163681386-289491c4-0ccb-4b8f-9406-76d34da2e942.png)
 Figura 5: Tela de quando acerta o maior valor. Mensagem de Acerto.
 
-![image](https://user-images.githubusercontent.com/52542729/163659660-dd77ea83-d402-478c-b392-0fe214ed0076.png)
+![image](https://user-images.githubusercontent.com/52542729/163682229-0a350145-41ac-49ba-bc2b-c9bbbdcc1dd6.png)
 Figura 6: Tela de quando não acerta o maior valor. Mensagem de Erro.
 
 ## Instalação 
