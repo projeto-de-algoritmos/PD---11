@@ -16,8 +16,8 @@ Você está dentro de uma caverna e precisa escapar dela! Você tem acesso a um 
 
 NOVIDADE!!! <br>
 
-Mas agora, há desafios! Você terá que carregar itens com você até a saída! É preciso que você defina nos postos qual
-o maior valor de itens que consegue levar a partir do máximo de Kg dados!
+Mas agora, há desafios! Você terá que carregar moedas com você até a saída! É preciso que você defina nos postos qual
+o maior valor de moedas que consegue levar a partir do máximo de Kg dados!
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/52542729/163654706-2fae760d-81ec-402a-9019-c8cea27e037d.png)
@@ -59,7 +59,7 @@ Os caminhos que existem entre os postos (nós) são os seguintes:
 | 9  | 8 |
 | 10  | 5 |
 
-* Para uma rápida avaliação do jogo, a resposta com o maior valor dos itens de cada posto está rotacionada embaixo da tabela de valores. <br>
+* Para uma rápida avaliação do jogo, a resposta com o maior valor das moedas de cada posto está rotacionada embaixo da tabela de valores. <br>
 
 * Ao acertar o valor máximo, aparecerá uma mensagem de acerto e você terá que ir para outro posto. <br>
 
