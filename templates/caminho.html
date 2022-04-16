@@ -63,28 +63,38 @@
         <h1>Você se encontra no posto nº: {{no}}</h1>
         <p class="impact-text">As moedas deste posto com seus valores e pesos são:</p>
         
-        <div class="lista">
-            <div class="box-moeda">
-                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_1.png')}}">
-            </div>
-            <p>Valor : {{valor0}}   -  Peso: {{peso0}} </p>
-            <div class="box-moeda">
-                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_2.png')}}">
-            </div>
-            <p>Valor : {{valor1}}  - Peso: {{peso0}} </p>
-            <div class="box-moeda">
-                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_3.png')}}">
-            </div>
-            <p>Valor : {{valor2}}  - Peso: {{peso0}} </p>
-            <div class="box-moeda">
-                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_4.png')}}">
-            </div>
-            <p>Valor : {{valor3}} - Peso: {{peso0}} </p>
-            <div class="box-moeda">
-                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_5.png')}}">
-            </div>
-            <p>Valor : {{valor4}} - Peso: {{peso0}} </p>
-        </div>
+        <table cellpadding="5px">
+            <tr>
+                <td>Moeda</td>
+                <td>Valor</td>
+                <td>Peso</td>
+            </tr>
+            <tr class="linha-clara">
+                <td> <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_1.png')}}"> </td>
+                <td>{{valor0}}</td>
+                <td>{{peso0}}</td>
+            </tr>
+            <tr>
+                <td> <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_2.png')}}"> </td>
+                <td>{{valor1}}</td>
+                <td>{{peso1}}</td>
+            </tr>
+            <tr class="linha-clara">
+                <td> <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_3.png')}}"> </td>
+                <td>{{valor2}}</td>
+                <td>{{peso2}}</td>
+            </tr>
+            <tr>
+                <td> <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_4.png')}}"> </td>
+                <td>{{valor3}}</td>
+                <td>{{peso3}}</td>
+            </tr>
+            <tr class="linha-clara">
+                <td> <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_5.png')}}"> </td>
+                <td>{{valor4}}</td>
+                <td>{{peso4}}</td>
+            </tr>
+        </table>
         <p class="tag">Resposta: {{resposta}}.</p>
 
         <form class="knapsack" action="" method="post">

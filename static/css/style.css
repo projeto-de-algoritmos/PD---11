@@ -290,17 +290,6 @@ body {
     transform: rotate(180deg);
     color: gray;
 }
-
-.lista{
-    font-size: 20px;
-    color:yellow;
-    background-color: #964B00;
-    border:rgba(0, 0, 0, 0.21);
-    margin: auto;
-    padding: 5px;
-    width: 30%;
-    border-radius: 30px;
-}
 .card{
     position: absolute;
     margin: 0 auto 0 auto;
@@ -319,12 +308,18 @@ body {
 .img-moeda{
     width: 30px;
     height: 30px;
-    position: absolute;
-    float: left;
 }
 
-.box-moeda{
-    margin-left: 25px;
-    margin-right: 0px;
-    float: left;
+table{
+    font-size: 20px;
+    width: 50%;
+    background-color: #964B00;
+    border-radius: 20px;
+    color: black;
+    padding:5px;
+    margin: auto;
+    line-height: 40px;
+}
+.linha-clara{
+    background-color: #ac5701;
 }
