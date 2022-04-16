@@ -315,3 +315,16 @@ body {
 .card-header{
     font-size: 30px;
 }
+
+.img-moeda{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    float: left;
+}
+
+.box-moeda{
+    margin-left: 25px;
+    margin-right: 0px;
+    float: left;
+}
