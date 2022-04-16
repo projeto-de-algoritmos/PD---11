@@ -61,18 +61,34 @@
         {% endif %}
 
         <h1>Você se encontra no posto nº: {{no}}</h1>
-        <p class="impact-text">Os itens deste posto com seus valores e pesos são:</p>
+        <p class="impact-text">As moedas deste posto com seus valores e pesos são:</p>
         
-        <p class="lista">Item - Valor - Peso<br>
-            1  -  {{valor0}}  -  {{peso0}}<br>
-            2  -  {{valor1}}  -  {{peso1}}<br>
-            3  -  {{valor2}}  -  {{peso2}}<br>
-            4  -  {{valor3}}  -  {{peso3}}<br>
-            5  -  {{valor4}}  -  {{peso4}}</p>
+        <div class="lista">
+            <div class="box-moeda">
+                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_1.png')}}">
+            </div>
+            <p>Valor : {{valor0}}   -  Peso: {{peso0}} </p>
+            <div class="box-moeda">
+                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_2.png')}}">
+            </div>
+            <p>Valor : {{valor1}}  - Peso: {{peso0}} </p>
+            <div class="box-moeda">
+                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_3.png')}}">
+            </div>
+            <p>Valor : {{valor2}}  - Peso: {{peso0}} </p>
+            <div class="box-moeda">
+                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_4.png')}}">
+            </div>
+            <p>Valor : {{valor3}} - Peso: {{peso0}} </p>
+            <div class="box-moeda">
+                <img class="img-moeda" src="{{ url_for('static', filename='img/moeda_5.png')}}">
+            </div>
+            <p>Valor : {{valor4}} - Peso: {{peso0}} </p>
+        </div>
         <p class="tag">Resposta: {{resposta}}.</p>
 
         <form class="knapsack" action="" method="post">
-            <h1>Qual o maior valor de itens que você consegue levar <br>tendo {{peso}} quilos disponíveis na mochila?</h1>
+            <h1>Qual o maior valor de moedas que você consegue levar <br>tendo {{peso}} quilos disponíveis na mochila?</h1>
             <div class="envio">
                 <input type="number" name="valor" required>
                 <button type="submit">Enviar</button>
