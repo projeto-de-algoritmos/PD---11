@@ -33,12 +33,27 @@
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     text-align: center;
-    color: #c21919;
+    color: white;
     margin-bottom: 0px;
     z-index: 2;
     position: relative;
 }
 
+.impact {
+    color: red;
+}
+
+.new-text{
+    margin: 0px 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+    position: relative;
+    color: white;
+}
 .text {
     margin: 0px 100px;
     margin-bottom: 0px;
@@ -251,11 +266,52 @@ body {
 }
 
 .caminho {
-    margin-top: 20px;
+    margin: 30px;
     color: white;
     text-align: center;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     text-align: center;
+    float: right;
+    margin-left: 0px;
+}
+
+.img-caminho {
+    width: 400px;
+    height: 380px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 0px;
+    float: left;
+}
+
+.tag{
+    transform: rotate(180deg);
+    color: gray;
+}
+
+.lista{
+    font-size: 20px;
+    color:yellow;
+    background-color: #964B00;
+    border:rgba(0, 0, 0, 0.21);
+    margin: auto;
+    padding: 5px;
+    width: 30%;
+    border-radius: 30px;
+}
+.card{
+    position: absolute;
+    margin: 0 auto 0 auto;
+    width: 30%;
+    height: 250px;
+}
+.alert{
+    margin: auto;
+    font-size: 25px;
+    width: 50%;
+}
+.card-header{
+    font-size: 30px;
 }
