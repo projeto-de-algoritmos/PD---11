@@ -295,6 +295,7 @@ body {
     margin: 0 auto 0 auto;
     width: 30%;
     height: 250px;
+    z-index: 9999;
 }
 .alert{
     margin: auto;
@@ -312,7 +313,7 @@ body {
 
 table{
     font-size: 20px;
-    width: 50%;
+    width: 45%;
     background-color: #964B00;
     border-radius: 20px;
     color: black;
