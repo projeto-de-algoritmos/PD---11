@@ -13,17 +13,20 @@
     </div>
     <div class="box-body">
         <div class="corner">
-                <h1 class="impact-text"><b>VOCÊ ESTÁ DENTRO DE UMA CAVERNA E PRECISA ESCAPAR DELA!</b></h1>
+                <h1 class="impact-text"><b><b class="impact">NOVA VERSÃO!</class></b> VOCÊ ESTÁ DENTRO DE UMA CAVERNA E PRECISA ESCAPAR DELA!</b></h1>
                 <p class="text">Você tem acesso a um mapa onde mostra todos os postos dentro da caverna, porém percebe que ele
                     está
                     desatualizado!</br>
                     No mapa que você tem, todos os postos estão conectados entre si, e algumas conexões não existem mais.</br>
                     O seu objetivo é sair da caverna testando se existem caminhos ou não entre os postos.</p>
-
+                <p class="new-text">Mas agora, há desafios!
+                    Você terá que carregar itens com você até a saída! <br> É preciso que você defina nos postos qual
+                    o maior valor de itens que consegue levar a partir do máximo de Kg dados!
+                </p>
                 <img class="img" src="./static/img/caveScapemap.png">
 
                 <form class="text-envio" action="http://127.0.0.1:5000/" method="post">
-                    <label for=""> Você está em {{no}}. Onde deseja ir? </label><br>
+                    <label for=""> Você está no posto nº: {{no}}.<br> Onde deseja ir? </label><br>
                     <input type="number" min="1" max="10" name="name" placeholder="Posto." required>
                     <button type="submit">Enviar</button>
                 </form>
